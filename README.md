@@ -1,67 +1,44 @@
-# WeatherVista_Project
-🌦️ Weather Vista: Intelligent Forecasting and Display of Climate Parameters
+<img width="1104" alt="Screenshot 2025-05-02 at 12 24 55 PM" src="https://github.com/user-attachments/assets/46932f88-1ae8-483d-8815-926df25faa32" /><img width="1142" alt="Screenshot 2025-05-02 at 12 08 58 PM" src="https://github.com/user-attachments/assets/7ec1bc9c-601c-4f0f-a8a5-f913eb621fda" /># WeatherVista_Project
+Weather Vista is a smart weather forecasting web application that combines real-time weather data with machine learning models to predict climate parameters like temperature, humidity, and rainfall. It also visualizes future trends using interactive graphs.
 
-Weather Vista is a machine learning-powered weather forecasting system that integrates real-time API data with historical datasets to provide accurate predictions for key climate parameters such as temperature, humidity, wind speed, and rainfall. The platform includes interactive visualizations and an intuitive dashboard designed to support decision-making in agriculture, disaster preparedness, urban planning, and more.
+📌 Key Features
 
-🚀 Features
+🌍 Fetches real-time weather data via OpenWeatherMap API
+🤖 Uses ML models (Random Forest) for:
+Rain prediction (classification)
+Temperature & humidity forecasting (regression)
+📈 5-hour future prediction visualization using charts
+🖼️ Dynamic backgrounds based on current weather conditions
+🌐 Built using Django + HTML/CSS/JS (Chart.js)
+🛠️ Technologies Used
 
-🌍 Real-time weather data retrieval via OpenWeatherMap API
-📊 Prediction of rainfall using Random Forest Classifier
-🌡️ Forecasting of temperature and humidity trends using regression models
-📉 Interactive charts to display 5-hour forecasts
-🧠 Hybrid architecture using historical numerical data and CNN-ready image inputs (optional)
-🌤️ Dynamic UI with weather-based background changes
-🧠 Tech Stack
-
-Frontend: HTML/CSS, JavaScript
-Backend: Python, Django
+Frontend: HTML, CSS, JavaScript
+Backend: Python (Django)
 Machine Learning: scikit-learn, pandas, numpy
 Visualization: Chart.js
 API: OpenWeatherMap
-Deployment: Localhost / Streamlit (optional)
-🛠️ Installation
+📦 How to Run Locally
 
-Clone the repository:
-git clone https://github.com/yourusername/weather-vista.git
+Clone the repository
+git clone https://github.com/your-username/weather-vista.git
 cd weather-vista
-Create and activate a virtual environment:
+Create a virtual environment and activate it
 python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-Install dependencies:
+source env/bin/activate  # On Windows: env\Scripts\activate
+Install the required packages
 pip install -r requirements.txt
-Set your OpenWeatherMap API key in the views.py:
+Add your OpenWeatherMap API key in views.py
 API_KEY = 'your_api_key_here'
-Run Django server:
+Run the Django development server
 python manage.py runserver
-Visit in browser:
+Open your browser and go to
 http://127.0.0.1:8000/
+
 📷 Screenshots
 
+![Uploading Screenshot 2025-05-02 at 12.08.58 PM.png…]()
 
-📈 ML Models Used
 
-Random Forest Classifier for Rain prediction
-Random Forest Regressor for Temperature & Humidity forecasting
-CNN (optional) for visual-based weather prediction from sky images
-Hybrid model combining structured and visual data for enhanced accuracy
-📂 Project Structure 
-
-weather-vista/
-├── forecast/
-│   ├── templates/
-│   │   └── weather.html
-│   ├── static/
-│   │   └── img/
-│   ├── views.py
-│   ├── urls.py
-├── weatherProject/
-│   └── settings.py
-├── weather.csv
-├── manage.py
-└── README.md
-📌 Use Cases
-
-🌱 Smart agriculture planning
-🚨 Flood early warning systems
-🏙️ Urban infrastructure optimization
-📱 Personalized mobile weather dashboard
+Home page with weather display
+Prediction chart view
+Dynamic backgrounds (e.g., rain, cloudy, clear)
