@@ -34,7 +34,7 @@ python manage.py runserver
 Open your browser and go to
 http://127.0.0.1:8000/
 
-📷 Screenshots
+📷 Screenshot
 
 ![Uploading Screenshot 2025-05-02 at 12.08.58 PM.png…]()
 
