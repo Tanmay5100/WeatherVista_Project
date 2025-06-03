@@ -1,5 +1,7 @@
-<img width="1104" alt="Screenshot 2025-05-02 at 12 24 55 PM" src="https://github.com/user-attachments/assets/46932f88-1ae8-483d-8815-926df25faa32" /># WeatherVista_Project
-Weather Vista is a smart weather forecasting web application that combines real-time weather data with machine learning models to predict climate parameters like temperature, humidity, and rainfall. It also visualizes future trends using interactive graphs.
+<img width="1104" alt="Screenshot 2025-05-02 at 12 24 55 PM" src="https://github.com/user-attachments/assets/46932f88-1ae8-483d-8815-926df25faa32" />
+# WeatherVista_Project
+ Weather Vista: Intelligent Forecasting and Display of Climate Parameters
+ Weather Vista is a machine learning-powered weather forecasting system that integrates real-time API data with historical datasets to provide accurate predictions for key climate parameters such as temperature, humidity, wind speed, and rainfall. The platform includes interactive visualizations and an intuitive dashboard designed to support decision-making in agriculture, disaster preparedness, urban planning, and more.
 
 📌 Key Features
 
@@ -34,9 +36,6 @@ python manage.py runserver
 Open your browser and go to
 http://127.0.0.1:8000/
 
-📷 Screenshot
-
-![Uploading Screenshot 2025-05-02 at 12.08.58 PM.png…]()
 
 
 Home page with weather display
