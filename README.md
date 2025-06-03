@@ -37,7 +37,7 @@ Visit in browser:
 http://127.0.0.1:8000/
 📷 Screenshots
 
-<div align="center"> <img src="screenshots/home.png" width="400"/> <img src="screenshots/chart.png" width="400"/> </div>
+
 📈 ML Models Used
 
 Random Forest Classifier for Rain prediction
