@@ -44,7 +44,7 @@ Random Forest Classifier for Rain prediction
 Random Forest Regressor for Temperature & Humidity forecasting
 CNN (optional) for visual-based weather prediction from sky images
 Hybrid model combining structured and visual data for enhanced accuracy
-📂 Project Structure
+📂 Project Structure 
 
 weather-vista/
 ├── forecast/
